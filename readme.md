@@ -12,18 +12,23 @@ chmod -R 0755 .
 ![](images/readme_custom_actions.png)
 
 ## Functionality
-###### fetch-tags-(origin/upstream).sh
+##### fetch-tags-(origin/upstream).sh
 Fetch tags from `origin/upstream`.
 
 ##### force-push-(origin/upstream).sh
-Force push current branch to `origin/upstream`. IMPORTANT: Remote branch will be replaced.
+Force push current branch to `origin/upstream`. 
+
+IMPORTANT: Remote branch will be replaced.
 
 ##### move-(origin/upstream)-(dev/test/sandbox/staging/canary/prod/release).sh
-Move `dev/test/sandbox/staging/prod` tag to current commit, and push it to `origin/upstream`.
+Move `dev/test/sandbox/staging/canary/prod/release` tag to current commit, and push it to `origin/upstream`.
+
 Parameters: `$SHA`
 
 ##### undo-(origin/upstream).sh
-Undo commit pushed to `origin/upstream`. IMPORTANT: All changes will be lost.
+Undo commit pushed to `origin/upstream`. 
+
+IMPORTANT: All changes will be lost.
 
 ## Author
 - [Andrew Mok](https://andrewmmc.com) (@andrewmmc)
