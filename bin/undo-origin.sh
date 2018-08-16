@@ -7,3 +7,6 @@ REMOTE="origin"
 
 git reset --hard HEAD~1
 git push $REMOTE HEAD -f
+git fetch $REMOTE
+
+echo "Press Command+R for manual refresh"
